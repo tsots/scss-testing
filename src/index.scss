@@ -1,0 +1,14 @@
+@use "./scss/style.scss";
+@use "./scss/util/" as s;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  @include s.breakpoint(medium) {
+    background-color: green;
+  }
+}
