@@ -15,9 +15,9 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/scss-testing/" element={<Home />} />
-        <Route path="/scss-testing/about" element={<About />} />
-        <Route path="/scss-testing/contact" element={<Contact />} />
+        <Route path="/scss-testing" exact component={Home} />
+        <Route path="/scss-testing/about" component={About} />
+        <Route path="/scss-testing/contact" component={Contact} />
       </Routes>
     </>
   );
