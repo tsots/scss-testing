@@ -6,9 +6,9 @@ const Navbar = (props) => {
     <nav>
       <div>Tsotetsi</div>
       <ul>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/scss-testing/">Home</Link>
+        <Link to="/scss-testing/about">About</Link>
+        <Link to="/scss-testing/contact">Contact</Link>
       </ul>
     </nav>
   );
